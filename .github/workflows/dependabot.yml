@@ -1,0 +1,12 @@
+version: 2
+updates:
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "daily"
+    ignore:
+      - dependency-name: "react-scripts"
+    allow:
+    # Allow updates for Lodash
+    - dependency-name: "react-scripts"
+    # Allow updates for React and any packages starting "react"
