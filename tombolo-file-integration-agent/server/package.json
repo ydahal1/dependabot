@@ -1,0 +1,32 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "tombolo-file-integration-agent server",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hpcc-js/comms": "^2.78.1",
+    "axios": "^0.27.2",
+    "bree": "^9.0.1",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "morgan": "^1.10.0",
+    "sequelize": "^6.21.0",
+    "simple-git": "^3.9.0",
+    "sqlite3": "^5.0.8",
+    "uuid": "^8.3.2",
+    "winston": "^3.8.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.18.0",
+    "eslint-config-prettier": "^8.5.0",
+    "prettier": "^2.7.1",
+    "sequelize-cli": "^6.4.1",
+    "nodemon": "^2.0.18"
+  }
+}
